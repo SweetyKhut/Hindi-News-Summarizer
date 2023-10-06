@@ -1,0 +1,9 @@
+lemmatize_words()
+
+The lemmatize_words function takes a list of words as input and returns a list of lemmatized words.
+
+Lemmatization is the process of reducing words to their base or root form, which can help to group together words that have similar meanings. For example, the words "goes", "going", and "gone" can all be reduced to their base form "go", which can help to simplify analysis and improve accuracy.
+
+In the code, the function iterates through each word in the input list using a for loop, and applies the lemmatize method of the WordNetLemmatizer object to each word. The WordNetLemmatizer is a tool provided by the Natural Language Toolkit (NLTK) library that uses a built-in word database to determine the base form of each word. The resulting lemmatized word is then added to a new list called lemmatized_words.
+
+Finally, the function returns the list of lemmatized words. This list can then be used as input for further text processing tasks such as text classification, sentiment analysis, or topic modeling, to name a few examples. By lemmatizing words, we can reduce the number of distinct word forms in a text corpus and improve the accuracy of such tasks.
